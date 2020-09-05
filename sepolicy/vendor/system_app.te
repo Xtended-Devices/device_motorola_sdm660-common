@@ -10,3 +10,5 @@ allow system_app sysfs_battery_supply:file { getattr };
 allow system_app sysfs:file { write };
 allow system_app sysfs:file { open };
 allow system_app sysfs:file { getattr };
+allow system_app sysfs_zram:dir search;
+allow system_app sysfs_zram:file r_file_perms;
