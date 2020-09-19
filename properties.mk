@@ -119,6 +119,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sf.hwc_set_default_colormode=true \
+    debug.hwui.renderer=skiavk \
     debug.sf.enable_hwc_vds=1 \
     debug.sf.hw=1 \
     debug.sf.latch_unsignaled=1 \
